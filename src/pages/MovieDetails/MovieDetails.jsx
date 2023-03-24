@@ -14,6 +14,7 @@ export default function MovieDetails() {
 
   useEffect(() => {
     fetchMovieById();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {

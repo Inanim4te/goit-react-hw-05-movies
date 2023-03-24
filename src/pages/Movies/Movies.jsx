@@ -14,6 +14,7 @@ export default function Movies() {
       return;
     }
     fetchMoviesByName();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const inputValueHandler = e => {

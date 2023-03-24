@@ -9,6 +9,7 @@ export default function Reviews() {
 
   useEffect(() => {
     fetchMovieById();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   async function fetchMovieById() {
