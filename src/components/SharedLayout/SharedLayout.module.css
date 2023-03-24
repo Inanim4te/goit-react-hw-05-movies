@@ -1,0 +1,21 @@
+.container {
+  padding: 10px;
+}
+
+.navigation {
+  padding-bottom: 10px;
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.link {
+  font-size: 20px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
